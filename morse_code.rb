@@ -23,8 +23,10 @@ end
 
 def decode_sentence(sentence)
    @words = sentence.split(' ')
-   @decoded = '' @words.each do |word| 
+   @decoded = '' 
+   @words.each do |word| 
    @decoded += "#{decode_word(word)} " 
+   end
    @decoded 
 end
 
