@@ -30,4 +30,4 @@ def decode_sentence(sentence)
   @decoded
 end
 
-puts decode_sentence('.- -... --- -..- ..-. ..- .-.. .-.. --- ..-. .-. ..- -... .. . ...')
+puts decode_sentence('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
